@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/gun/Development/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/gun/StudioProjects/FacePreview1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-3e9b89bd5efc85155e7602afd64b441472de26aa.jar" />
+    </item>
+    <item
+        jar="/home/gun/StudioProjects/FacePreview1/app/libs/javacv.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2b2e1e064c58d0f7a919b1533dff2410ced06f54">
+        <dex dex="/home/gun/StudioProjects/FacePreview1/app/build/intermediates/pre-dexed/debug/javacv-313c0b5e23cbc1142463e743018af6a74c11c766.jar" />
+    </item>
+    <item
+        jar="/home/gun/StudioProjects/FacePreview1/app/libs/javacpp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a2936a8a78b1c2b467f775cd5a246621787c8ffc">
+        <dex dex="/home/gun/StudioProjects/FacePreview1/app/build/intermediates/pre-dexed/debug/javacpp-5c2676f2f3bd9837b023a9c5e7d12fdf2681ab8c.jar" />
+    </item>
+
+</items>

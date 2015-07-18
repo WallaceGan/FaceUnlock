@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="3"
+        android:gravity="center|left"
+        android:textColor="@android:color/white"
+        android:text="为了设置认证用户，将要拍摄三张照片。请将手机旋转，并使头部置于屏幕中央，点击屏幕即可完成拍摄"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/beginButton"
+            android:layout_width="150dip"
+            android:layout_height="45dip"
+            android:layout_marginTop="20dip"
+            android:text="确定"
+            android:background="@drawable/bg_border1"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/home/gun/StudioProjects/FacePreview1/app/src/main/res/layout/introduction.xml -->

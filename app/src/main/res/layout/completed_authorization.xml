@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="认证头像设置即将完成，此后将通过您的面部登录应用"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_weight="0.4"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/beginButton"
+            android:layout_width="150dip"
+            android:layout_height="45dip"
+            android:layout_marginTop="20dip"
+            android:text="登录"
+            android:background="@drawable/bg_border1"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* FacePreview_Test/
+* FacePreview_Test/lint.xml
+* FacePreview_Test/proguard-project.txt
+* FacePreview_Test/project.properties
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* FacePreview_Test/res/ => app/src/androidTest/res/
+* FacePreview_Test/src/ => app/src/androidTest/java/
+* libs/armeabi/libavcodec.so => app/src/main/jniLibs/armeabi/libavcodec.so
+* libs/armeabi/libavdevice.so => app/src/main/jniLibs/armeabi/libavdevice.so
+* libs/armeabi/libavfilter.so => app/src/main/jniLibs/armeabi/libavfilter.so
+* libs/armeabi/libavformat.so => app/src/main/jniLibs/armeabi/libavformat.so
+* libs/armeabi/libavutil.so => app/src/main/jniLibs/armeabi/libavutil.so
+* libs/armeabi/libjniARToolKitPlus.so => app/src/main/jniLibs/armeabi/libjniARToolKitPlus.so
+* libs/armeabi/libjniavcodec.so => app/src/main/jniLibs/armeabi/libjniavcodec.so
+* libs/armeabi/libjniavdevice.so => app/src/main/jniLibs/armeabi/libjniavdevice.so
+* libs/armeabi/libjniavfilter.so => app/src/main/jniLibs/armeabi/libjniavfilter.so
+* libs/armeabi/libjniavformat.so => app/src/main/jniLibs/armeabi/libjniavformat.so
+* libs/armeabi/libjniavutil.so => app/src/main/jniLibs/armeabi/libjniavutil.so
+* libs/armeabi/libjnicvkernels.so => app/src/main/jniLibs/armeabi/libjnicvkernels.so
+* libs/armeabi/libjniopencv_calib3d.so => app/src/main/jniLibs/armeabi/libjniopencv_calib3d.so
+* libs/armeabi/libjniopencv_contrib.so => app/src/main/jniLibs/armeabi/libjniopencv_contrib.so
+* libs/armeabi/libjniopencv_core.so => app/src/main/jniLibs/armeabi/libjniopencv_core.so
+* libs/armeabi/libjniopencv_features2d.so => app/src/main/jniLibs/armeabi/libjniopencv_features2d.so
+* libs/armeabi/libjniopencv_flann.so => app/src/main/jniLibs/armeabi/libjniopencv_flann.so
+* libs/armeabi/libjniopencv_highgui.so => app/src/main/jniLibs/armeabi/libjniopencv_highgui.so
+* libs/armeabi/libjniopencv_imgproc.so => app/src/main/jniLibs/armeabi/libjniopencv_imgproc.so
+* libs/armeabi/libjniopencv_legacy.so => app/src/main/jniLibs/armeabi/libjniopencv_legacy.so
+* libs/armeabi/libjniopencv_ml.so => app/src/main/jniLibs/armeabi/libjniopencv_ml.so
+* libs/armeabi/libjniopencv_nonfree.so => app/src/main/jniLibs/armeabi/libjniopencv_nonfree.so
+* libs/armeabi/libjniopencv_objdetect.so => app/src/main/jniLibs/armeabi/libjniopencv_objdetect.so
+* libs/armeabi/libjniopencv_photo.so => app/src/main/jniLibs/armeabi/libjniopencv_photo.so
+* libs/armeabi/libjniopencv_stitching.so => app/src/main/jniLibs/armeabi/libjniopencv_stitching.so
+* libs/armeabi/libjniopencv_video.so => app/src/main/jniLibs/armeabi/libjniopencv_video.so
+* libs/armeabi/libjniopencv_videostab.so => app/src/main/jniLibs/armeabi/libjniopencv_videostab.so
+* libs/armeabi/libjnipostproc.so => app/src/main/jniLibs/armeabi/libjnipostproc.so
+* libs/armeabi/libjniswresample.so => app/src/main/jniLibs/armeabi/libjniswresample.so
+* libs/armeabi/libjniswscale.so => app/src/main/jniLibs/armeabi/libjniswscale.so
+* libs/armeabi/libopencv_calib3d.so => app/src/main/jniLibs/armeabi/libopencv_calib3d.so
+* libs/armeabi/libopencv_contrib.so => app/src/main/jniLibs/armeabi/libopencv_contrib.so
+* libs/armeabi/libopencv_core.so => app/src/main/jniLibs/armeabi/libopencv_core.so
+* libs/armeabi/libopencv_features2d.so => app/src/main/jniLibs/armeabi/libopencv_features2d.so
+* libs/armeabi/libopencv_flann.so => app/src/main/jniLibs/armeabi/libopencv_flann.so
+* libs/armeabi/libopencv_highgui.so => app/src/main/jniLibs/armeabi/libopencv_highgui.so
+* libs/armeabi/libopencv_imgproc.so => app/src/main/jniLibs/armeabi/libopencv_imgproc.so
+* libs/armeabi/libopencv_info.so => app/src/main/jniLibs/armeabi/libopencv_info.so
+* libs/armeabi/libopencv_legacy.so => app/src/main/jniLibs/armeabi/libopencv_legacy.so
+* libs/armeabi/libopencv_ml.so => app/src/main/jniLibs/armeabi/libopencv_ml.so
+* libs/armeabi/libopencv_nonfree.so => app/src/main/jniLibs/armeabi/libopencv_nonfree.so
+* libs/armeabi/libopencv_objdetect.so => app/src/main/jniLibs/armeabi/libopencv_objdetect.so
+* libs/armeabi/libopencv_photo.so => app/src/main/jniLibs/armeabi/libopencv_photo.so
+* libs/armeabi/libopencv_stitching.so => app/src/main/jniLibs/armeabi/libopencv_stitching.so
+* libs/armeabi/libopencv_ts.so => app/src/main/jniLibs/armeabi/libopencv_ts.so
+* libs/armeabi/libopencv_video.so => app/src/main/jniLibs/armeabi/libopencv_video.so
+* libs/armeabi/libopencv_videostab.so => app/src/main/jniLibs/armeabi/libopencv_videostab.so
+* libs/armeabi/libpostproc.so => app/src/main/jniLibs/armeabi/libpostproc.so
+* libs/armeabi/libswresample.so => app/src/main/jniLibs/armeabi/libswresample.so
+* libs/armeabi/libswscale.so => app/src/main/jniLibs/armeabi/libswscale.so
+* libs/armeabi/libtbb.so => app/src/main/jniLibs/armeabi/libtbb.so
+* libs/javacpp.jar => app/libs/javacpp.jar
+* libs/javacv.jar => app/libs/javacv.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/googlecode/javacv/facepreview/data/a_02_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_02_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_02_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_02_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_03_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_03_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_03_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_03_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_04_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_04_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_04_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_04_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_05_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_05_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_05_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_05_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_06_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_06_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_06_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_06_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_07_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_07_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_07_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_07_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_08_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_08_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_08_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_08_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_09_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_09_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_09_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_09_15.jpg
+* src/com/googlecode/javacv/facepreview/data/a_10_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_10_05.jpg
+* src/com/googlecode/javacv/facepreview/data/a_10_10.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_10_10.jpg
+* src/com/googlecode/javacv/facepreview/data/a_10_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/a_10_15.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_1.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_1.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_1_2.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_1_2.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_2.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_2.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_2_2.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_2_2.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_3.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_3.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_test.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_test.jpg
+* src/com/googlecode/javacv/facepreview/data/authorized_test_2.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/authorized_test_2.jpg
+* src/com/googlecode/javacv/facepreview/data/b_02_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_02_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_02_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_02_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_03_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_03_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_03_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_03_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_04_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_04_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_04_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_04_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_05_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_05_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_05_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_05_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_06_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_06_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_06_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_06_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_07_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_07_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_07_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_07_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_08_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_08_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_08_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_08_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_09_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_09_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_09_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_09_15.jpg
+* src/com/googlecode/javacv/facepreview/data/b_10_05.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_10_05.jpg
+* src/com/googlecode/javacv/facepreview/data/b_10_10.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_10_10.jpg
+* src/com/googlecode/javacv/facepreview/data/b_10_15.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/b_10_15.jpg
+* src/com/googlecode/javacv/facepreview/data/haarcascade_frontalface_alt.xml => app/src/main/resources/com/googlecode/javacv/facepreview/data/haarcascade_frontalface_alt.xml
+* src/com/googlecode/javacv/facepreview/data/no_face.jpg => app/src/main/resources/com/googlecode/javacv/facepreview/data/no_face.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

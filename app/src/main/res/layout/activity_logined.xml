@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.googlecode.javacv.facepreview.LoginedActivity">
+
+    <TextView android:text="登录成功"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="20dip"
+        android:text="返回"
+        android:id="@+id/resetButton"
+        android:background="@drawable/bg_border1"/>
+    <Button
+        android:layout_width="150dip"
+        android:layout_height="45dip"
+        android:layout_marginTop="20dip"
+        android:text="重新认证"
+        android:id="@+id/testAgainButton"
+        android:background="@drawable/bg_border1"/>
+
+
+</LinearLayout>
